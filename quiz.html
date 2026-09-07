@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Beauty Quiz | Glow & Go</title>
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        glow<span>&</span>go.
+    </a>
+
+
+    <nav class="nav-menu" id="navMenu">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="guide.html">
+            Makeup Guide
+        </a>
+
+        <a href="beauty.html">
+            Beauty
+        </a>
+
+        <a href="quiz.html" class="active">
+            Quiz
+        </a>
+
+        <a href="inspiration.html">
+            Inspiration
+        </a>
+
+        <a href="contact.html">
+            Contact
+        </a>
+
+    </nav>
+
+
+    <div class="nav-actions">
+
+        <button id="themeBtn"
+                class="icon-btn">
+            ☾
+        </button>
+
+        <button id="menuBtn"
+                class="menu-btn">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+
+<section class="page-hero">
+
+    <p class="eyebrow">
+        BEAUTY QUIZ
+    </p>
+
+    <h1>
+        What's your
+        <em>beauty vibe?</em>
+    </h1>
+
+    <p>
+        Jawab beberapa pertanyaan sederhana
+        dan temukan style makeup yang sesuai dengan
+        preferensimu.
+    </p>
+
+</section>
+
+
+<section class="quiz-section">
+
+<form id="beautyQuiz">
+
+
+<!-- QUESTION 1 -->
+
+<div class="question">
+
+    <p>
+        01. Untuk aktivitas sehari-hari,
+        kamu lebih suka makeup...
+    </p>
+
+    <label>
+        <input type="radio"
+               name="q1"
+               value="natural"
+               required>
+
+        Natural dan ringan
+    </label>
+
+    <label>
+        <input type="radio"
+               name="q1"
+               value="glam">
+
+        Lebih bold dan standout
+    </label>
+
+</div>
+
+
+<!-- QUESTION 2 -->
+
+<div class="question">
+
+    <p>
+        02. Warna makeup yang paling menarik?
+    </p>
+
+    <label>
+        <input type="radio"
+               name="q2"
+               value="natural">
+
+        Nude / soft pink
+    </label>
+
+    <label>
+        <input type="radio"
+               name="q2"
+               value="glam">
+
+        Merah / warna bold
+    </label>
+
+</div>
+
+
+<!-- QUESTION 3 -->
+
+<div class="question">
+
+    <p>
+        03. Kalau pergi bersama teman,
+        kamu memilih...
+    </p>
+
+    <label>
+        <input type="radio"
+               name="q3"
+               value="natural">
+
+        Simple dan effortless
+    </label>
+
+    <label>
+        <input type="radio"
+               name="q3"
+               value="glam">
+
+        Full look dan lebih expressive
+    </label>
+
+</div>
+
+
+<!-- QUESTION 4 -->
+
+<div class="question">
+
+    <p>
+        04. Mana yang lebih kamu sukai?
+    </p>
+
+    <label>
+        <input type="radio"
+               name="q4"
+               value="natural">
+
+        Dewy dan fresh
+    </label>
+
+    <label>
+        <input type="radio"
+               name="q4"
+               value="glam">
+
+        Sharp dan defined
+    </label>
+
+</div>
+
+
+<!-- QUESTION 5 -->
+
+<div class="question">
+
+    <p>
+        05. Pilih lip look favoritmu.
+    </p>
+
+    <label>
+        <input type="radio"
+               name="q5"
+               value="natural">
+
+        Soft tint
+    </label>
+
+    <label>
+        <input type="radio"
+               name="q5"
+               value="glam">
+
+        Bold lipstick
+    </label>
+
+</div>
+
+
+<button type="submit"
+        class="btn primary quiz-button">
+
+    Show My Result ✨
+
+</button>
+
+
+</form>
+
+
+<!-- RESULT -->
+
+<div id="quizResult"
+     class="quiz-result">
+
+    <span>
+        ✨
+    </span>
+
+    <h2>
+        Your Beauty Vibe
+    </h2>
+
+    <h3 id="resultTitle">
+    </h3>
+
+    <p id="resultText">
+    </p>
+
+    <button id="retryQuiz"
+            class="btn secondary">
+
+        Try Again
+
+    </button>
+
+</div>
+
+
+</section>
+
+
+</main>
+
+
+<footer>
+
+    <div class="footer-main">
+
+        <div>
+
+            <div class="footer-logo">
+                glow<span>&</span>go.
+            </div>
+
+            <p>
+                Beauty, simplicity & self expression.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>
+                Explore
+            </h4>
+
+            <a href="guide.html">
+                Makeup Guide
+            </a>
+
+            <a href="beauty.html">
+                Beauty Tips
+            </a>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h4>
+                Connect
+            </h4>
+
+            <a href="inspiration.html">
+                Inspiration
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <span>
+            © 2026 Glow & Go
+        </span>
+
+        <span>
+            Made with ♡
+        </span>
+
+    </div>
+
+</footer>
+
+
+<button id="topBtn"
+        class="top-btn">
+    ↑
+</button>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
